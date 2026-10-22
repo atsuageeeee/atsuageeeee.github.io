@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My squink | Official Site</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      color: #252525;
+      background: #f8faff;
+      line-height: 1.8;
+    }
+    header {
+      padding: 18px 7%;
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo { font-size: 22px; font-weight: bold; }
+    nav a {
+      color: #444;
+      text-decoration: none;
+      margin-left: 16px;
+      font-size: 14px;
+    }
+    .hero {
+      text-align: center;
+      padding: 90px 20px;
+      background: linear-gradient(135deg, #e8f4ff, #f5eaff);
+    }
+    .hero p { color: #555; }
+    h1 { font-size: clamp(38px, 8vw, 64px); margin: 0; }
+    .tag {
+      display: inline-block;
+      padding: 4px 14px;
+      border: 1px solid #777;
+      border-radius: 30px;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+    section {
+      max-width: 850px;
+      margin: auto;
+      padding: 55px 22px;
+    }
+    h2 {
+      font-size: 25px;
+      border-bottom: 2px solid #d9dfff;
+      padding-bottom: 10px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      border: 1px solid #e6e8f0;
+      border-radius: 14px;
+      margin-top: 18px;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #252a3a;
+      color: white;
+      font-size: 13px;
+    }
+    @media (max-width: 500px) {
+      nav a { margin-left: 8px; font-size: 12px; }
+      .hero { padding: 65px 15px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">My squink</div>
+    <nav>
+      <a href="#about">ABOUT</a>
+      <a href="#news">NEWS</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <span class="tag">OFFICIAL SITE</span>
+    <h1>My squink</h1>
+    <p>この真っ白な世界へ、届ける。</p>
+    <p>自分色で、自由に遊ぼう。</p>
+  </div>
+
+  <section id="about">
+    <h2>ABOUT US</h2>
+    <div class="card">
+      <p>ようこそ、My squinkへ！</p>
+      <p>ここは、ゲームを楽しむ仲間たちのチームです。</p>
+      <p>自分らしい色で、みんなと一緒に楽しもう！</p>
+    </div>
+  </section>
+
+  <section id="news">
+    <h2>NEWS</h2>
+    <div class="card">
+      <p>お知らせはまだありません。</p>
+      <p>これからの活動をお楽しみに！</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>My squink Official Site</p>
+  </footer>
+</body>
+</html>
